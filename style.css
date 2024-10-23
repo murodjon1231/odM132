@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#counterValue {
+    margin: 0 20px;
+    font-size: 40px;
+    color: red;
+}
+
+#decreaseBtn, #increaseBtn {
+    font-size: 30px;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.color-picker {
+    margin-top: 20px;
+}
+
+#colorInput {
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 30px;
+    margin-left: 10px;
+}
